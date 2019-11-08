@@ -83,12 +83,12 @@ function bedrag(){
 	}	
 
 	if (aantalSchalen8 != null){
-		document.write("Je hebt " + aantalSchalen8 + " schalen van " + aantalBB + " besteld van \u20ac3.50 = \u20ac" + schalenTotaal8);
+		document.write("Je hebt " + aantalSchalen8 + " schalen van 8 besteld van \u20ac3.50 = \u20ac" + schalenTotaal8);
 		document.write("<br>");
 	}
 
 	if (aantalSchalen16 != null){
-		document.write("Je hebt " + aantalSchalen16 + " schalen van " + aantalBB + " besteld van \u20ac6.00 = \u20ac" + schalenTotaal16);
+		document.write("Je hebt " + aantalSchalen16 + " schalen van 16 besteld van \u20ac6.00 = \u20ac" + schalenTotaal16);
 		document.write("<br>");
 	}
 
@@ -98,4 +98,3 @@ function bedrag(){
 	document.write("<br>");
 	document.write("Het totale bedrag = \u20ac" + prijsTotaal);
 }
-
